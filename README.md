@@ -1,6 +1,6 @@
 # Build your own API
 
-# What is an API?
+## What is an API?
 
 ## Explain API’s like Im 5.
 
