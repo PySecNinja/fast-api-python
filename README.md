@@ -12,7 +12,8 @@ For example, a weather website might have an API that allows a developer to retr
 
 ## Rest API Architecture
 
-![Screenshot 2023-01-18 at 6.20.42 PM.png](Build%20your%20own%20API%20cc0f2a3c80b04f9b9b0ad38d09d3f814/Screenshot_2023-01-18_at_6.20.42_PM.png)
+![Screenshot 2023-01-18 at 6 20 42 PM](https://user-images.githubusercontent.com/33384698/213352411-20fb657f-156a-4964-8249-29ac129b2420.png)
+
 
 # Understanding Json Data
 
@@ -199,7 +200,8 @@ def get_item(item_id: int = Path(None, gt=0, lt=2, description="The ID of the it
 
 Description above gets added to the docs here.
 
-![Screenshot 2023-01-18 at 7.04.07 PM.png](Build%20your%20own%20API%20cc0f2a3c80b04f9b9b0ad38d09d3f814/Screenshot_2023-01-18_at_7.04.07_PM.png)
+![Screenshot 2023-01-18 at 7 04 07 PM](https://user-images.githubusercontent.com/33384698/213352556-c12f0ad0-ce61-4af6-bcec-918500258ea7.png)
+
 
 Constraints added 
 
@@ -327,16 +329,16 @@ def create_item(item_id: int, item: Item):
 ### Trust but Verify
 
 Add item ID below and add info for name and price
-
-![Screenshot 2023-01-18 at 7.49.20 PM.png](Build%20your%20own%20API%20cc0f2a3c80b04f9b9b0ad38d09d3f814/Screenshot_2023-01-18_at_7.49.20_PM.png)
+![Screenshot 2023-01-18 at 7 49 20 PM](https://user-images.githubusercontent.com/33384698/213352619-d3beaf3d-4f45-4ad4-b901-ca7363d1df8a.png)
 
 Hit Execute and added Items are stored in memory. The json code in the picture should have the comma on the last KEY=VALUE pair
 
-![Screenshot 2023-01-18 at 7.51.43 PM.png](Build%20your%20own%20API%20cc0f2a3c80b04f9b9b0ad38d09d3f814/Screenshot_2023-01-18_at_7.51.43_PM.png)
+![Screenshot 2023-01-18 at 7 51 43 PM](https://user-images.githubusercontent.com/33384698/213352644-88bb0138-10ed-43c2-b2ee-85006bf23780.png)
 
 Now add ID 2 and you should GET the data we previously POSTED
 
-![Screenshot 2023-01-18 at 7.54.56 PM.png](Build%20your%20own%20API%20cc0f2a3c80b04f9b9b0ad38d09d3f814/Screenshot_2023-01-18_at_7.54.56_PM.png)
+![Screenshot 2023-01-18 at 7 54 56 PM](https://user-images.githubusercontent.com/33384698/213352665-f32a6e88-b17d-4f3d-9764-4fca8b328a85.png)
+
 
 ### Refactor code
 
@@ -497,8 +499,7 @@ PUT/update-item/{item_id}
 }
 ```
 
-![Screenshot 2023-01-18 at 8.22.41 PM.png](Build%20your%20own%20API%20cc0f2a3c80b04f9b9b0ad38d09d3f814/Screenshot_2023-01-18_at_8.22.41_PM.png)
-
+Screenshot 2023-01-18 at 8.22.41 PM
 Lets update the added item now
 
 PUT/update-item/{item_id}
@@ -509,7 +510,8 @@ PUT/update-item/{item_id}
 }
 ```
 
-![Screenshot 2023-01-18 at 8.26.29 PM.png](Build%20your%20own%20API%20cc0f2a3c80b04f9b9b0ad38d09d3f814/Screenshot_2023-01-18_at_8.26.29_PM.png)
+![Screenshot 2023-01-18 at 8 26 29 PM](https://user-images.githubusercontent.com/33384698/213352804-3a680968-b428-49e5-850c-cf0ba3683373.png)
+
 
 Works the manuel way too
 
@@ -517,7 +519,8 @@ Works the manuel way too
 http://127.0.0.1:8000/get-by-name?name=eggs
 ```
 
-![Screenshot 2023-01-18 at 8.27.40 PM.png](Build%20your%20own%20API%20cc0f2a3c80b04f9b9b0ad38d09d3f814/Screenshot_2023-01-18_at_8.27.40_PM.png)
+![Screenshot 2023-01-18 at 8 27 40 PM](https://user-images.githubusercontent.com/33384698/213352819-0ebc07c3-ce2e-4402-9f89-5ee63a4c1674.png)
+
 
 # Delete Method
 
